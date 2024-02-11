@@ -7,6 +7,8 @@ export const meta: MetaFunction = () => {
   ];
 };
 
+import { Button } from "~/components/ui/button";
+
 export default function Index() {
   return (
     <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
@@ -14,6 +16,7 @@ export default function Index() {
       <h1 className="text-3xl font-bold underline">
       Hello world!
     </h1>
+    <Button>Click me</Button>
       <ul>
         <li>
           <a
